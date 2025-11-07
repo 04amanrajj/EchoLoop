@@ -1,17 +1,19 @@
 {
   "expo": {
-    "name": "audio-buffer",
-    "slug": "audio-buffer",
+    "name": "EchoLoop",
+    "slug": "EchoLoop",
+    "permissions": ["AUDIO_RECORDING"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "audiobuffer",
+    "scheme": "EchoLoop",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["RECORD_AUDIO"],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
